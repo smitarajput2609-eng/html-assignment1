@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 50px auto;
+        }
+        table, th, td {
+            border: 2px solid black;
+        }
+        th, td {
+            padding: 8px 15px;
+            text-align: center;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>A report on several cells</caption>
+    <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red eyes</th>
+    </tr>
+    <tr>
+        <th>length</th>
+        <th>weight</th>
+    </tr>
+    <tr>
+        <th>Males</th>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+    </tr>
+    <tr>
+        <th>Females</th>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+    </tr>
+</table>
+
+</body>
+</html>
